@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+
+}
+
+p {
+    font-size: 14px;
+    color: #555;
+}
+
+strong {
+    color: #333;
+}
+.image {
+    width: 20%;
+    height: auto;
+    display: block;
+    margin-bottom: 20px;
+    
+.info-container h2 {
+    color: #333;
+    font-size: 20px;
+}
+    .info-container p {
+        font-size: 16px;
+        margin: 10p 0;
+    }
+}
+.image:hover {
+    transform: scale(1.1);
+}
+    
+}
+
+   <style>
+      /* Background seluruh halaman */
+      body {
+         background-color: #add8e6; /* Biru muda */
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+         flex-direction: column;
+      }
+
+      /* Styling tombol */
+      button {
+         padding: 10px 15px;
+         font-size: 16px;
+         cursor: pointer;
+         background-color: blue;
+         color: white;
+         border: none;
+         border-radius: 5px;
+      }
+
+      /* Styling untuk area tampilan file */
+      #cssContent {
+         display: none;
+         white-space: pre-wrap;
+         background-color: #f0e68c; /* Kuning keemasan */
+         padding: 10px;
+         border: 1px solid #ddd;
+         margin-top: 10px;
+         text-align: center;
+         border-radius: 5px;
+      }
+   </style>
+
+</body>
+</html>

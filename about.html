@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link rel="stylesheet" href="style.css"> <!-- Kalau mau pakai CSS terpisah -->
+</head>
+<body>
+
+<style>
+    /* Background halaman */
+    body {
+        background-color: #add8e6; /* Biru muda */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+    }
+
+    /* Navbar */
+    .navbar {
+        width: 100%;
+        background-color: #333;
+        padding: 10px;
+        text-align: center;
+    }
+    
+    .nav-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        background-color: #skyblue;
+        color: #333;
+        margin: 5px;
+        cursor: pointer;
+    }
+
+    /* Animasi teks masuk */
+    .about-text {
+        font-size: 24px;
+        text-align: center;
+        max-width: 500px;
+        opacity: 0;
+        transform: translateY(10px);
+        animation: fadeIn 1s forwards ease-out;
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    /* Styling untuk gambar */
+    .profile-img {
+        width: 300px;
+        height: 200px;
+        border-radius: 70%;
+        margin-top: 30px;
+        border: 3px solid #333;
+    }
+</style>
+
+<!-- Navbar -->
+<nav class="navbar">
+    <a href="index.html"><button class="nav-button">Home</button></a>
+    <a href="about.html"><button class="nav-button">About</button></a>
+</nav>
+
+<!-- Gambar profil -->
+<img src="vaa.jpg" alt="Foto Profil" class="profile-img">
+
+<!-- Teks About -->
+<h2 class="about-text">Óla! Ha'u Evangela Mendes, estudante husi Instituto Profissional de Canossa (IPDC), no hau foti departamentu Tecnicas de Computacao e informatica (TCI). Ha'u iha interese tebes iha mundu teknolojia no programasaun nian. Ha'u sempre koko atu aprende no buras iha área ida-ne'e!</h2>
+
+<h3>Kria husi Eva</h3>
+</body>
+</html>
